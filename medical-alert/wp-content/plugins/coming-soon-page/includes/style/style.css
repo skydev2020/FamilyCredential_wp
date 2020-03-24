@@ -1,0 +1,127 @@
+body{
+   margin:0px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#title_style h1{	
+	font-size: 55px;
+	padding: 0px;
+	margin: 5px 0px 5px 0px;
+}
+#descrip{
+	margin: 5px 0px 5px 0px;
+}
+.soc_icon_coneiner{
+	display:inline-block;
+	margin-top:2%;
+	width: 100%;
+}
+.soc_icon_coneiner .soc_icon{
+	display: inline-block;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.soc_icon_coneiner .soc_icon img{
+	width:100%;				
+	max-height:82px;
+}
+.countdown > div{
+	margin-top:2%;
+	float:left;
+	color:#fff;
+	font-size:48px;
+	font-weight:bold;
+}
+.element_conteiner{
+	width:150px;
+	display: inline-block;					
+}
+.time_left{
+	border:none;
+	border-radius:8px;
+	background-color:#3DA8CC;
+	font-size:30px;
+	color:#000000;
+	padding-bottom: 4%;
+	padding-top: 5%;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-weight:bold;
+	font-family: monospace;
+	
+}
+.time_description{
+	margin-top:6px;
+	margin-bottom:6px;
+	font-size:25px;
+	color:#000000;
+	font-weight:bold;
+	font-family: monospace;
+}
+.information{
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+	padding-top: 20px;
+	margin-top: -20px;
+
+	background: rgba(255,255,255,0.55);
+	border-radius:8px;
+	width: 51%;
+	/*height:71.5%;*/
+	display:inline-block;
+	z-index:999999;
+	max-width:750px;
+	width:100%;					
+}
+
+.information #logo img{
+	max-height:210px;					
+}
+
+#main_inform_div{
+	display:table;
+	padding:10px;
+}
+#user_email{
+	font-size:25px;
+	border-radius:8px;
+	color:#000000;
+	width: 90%;
+	max-width: 350px;
+	padding-left:8px;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	font-family: monospace;
+}
+.information_user{
+	margin-top:10px;
+	color:#FFFFFF;
+	font-size:25px;
+	font-weight:bold;
+}
+#Send_mail_button{
+cursor:pointer;
+	margin-top:8px;
+	border:none;
+	border-radius:8px;
+	background-color:#3DA8CC;
+	font-size:25px;
+	color:#000000;
+	padding-bottom: 5px;
+	padding-top: 7px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-weight:bold;
+	font-family: monospace;
+}
+
+#slider{
+	left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 680px; width: 1903px; z-index: -999999; position: fixed;
+}
+.aligment{
+	display:table-cell;
+	width: 10%;
+}

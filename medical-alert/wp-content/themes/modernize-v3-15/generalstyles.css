@@ -1,0 +1,124 @@
+/* ------------------------------------------------------------------------------------
+--  RESET
+------------------------------------------------------------------------------------ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------------------------------------------------------------
+--  GENERAL
+------------------------------------------------------------------------------------ */
+html, body { 
+	width:100%;
+	height:100%;
+    font-family:'Glegoo', Helvetica, Arial, FreeSans sans-serif;
+    font-size:100%;
+	margin:0;
+	padding:0;
+	background: 
+    -webkit-radial-gradient(#111d21 15%, transparent 16%) 0 0,
+    -webkit-radial-gradient(#111d21 15%, transparent 16%) 18px 18px,
+    -webkit-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 0 1px,
+    -webkit-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 18px 19px;
+  
+	background: 
+    -o-radial-gradient(#111d21 15%, transparent 16%) 0 0,
+    -o-radial-gradient(#111d21 15%, transparent 16%) 18px 18px,
+    -o-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 0 1px,
+    -o-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 18px 19px;
+	
+	background: 
+    -moz-radial-gradient(#111d21 15%, transparent 16%) 0 0,
+    -moz-radial-gradient(#111d21 15%, transparent 16%) 18px 18px,
+    -moz-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 0 1px,
+    -moz-radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 18px 19px;
+     
+	 background-color:#25373D;
+     background-size:36px 36px;
+}
+::selection{
+	background:#ddd;
+}
+::-moz-selection{
+	background:#ddd;
+}
+img{
+	max-width:100%;
+}
+#wrapper{
+	float:left;
+	padding:0;
+	margin:0;
+	width: 100%;
+	min-height:100%;
+	/* max-width: 120em; (1920x / 16px) */
+}
+#inner{
+	margin:40px auto 0 auto;
+	width:80%;/*1536px*/
+}
+.block{
+	float:left;
+	width:100%;
+	margin:0 0 40px 0;
+    background:#2a444d;
+	border-radius: 5px;
+	border:1px solid #385a65;
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	-khtml-box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+}
+.preface h1{
+	font-size:2em;
+	color:#f0f0f0;
+	margin:2% 2% 0 2%;
+}
+p.exp{
+	font-size:1.4em;
+	color:#f0f0f0;
+	margin:1% 2% 0 2%;
+	line-height:1.5em;	
+}
+.name{
+	color:#4c6f7b;
+	text-shadow:0 2px 0 #1b323a;
+	text-transform:uppercase;
+	display:block;
+
+}

@@ -1,0 +1,55 @@
+table, thead, tbody, th, td, tr{
+    display: block;
+
+}
+table{
+	border:1px solid #ddd;
+}
+.table1 thead tr{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.table1 td{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding-left: 50%;
+}
+.table1 td:before{
+     position: absolute;
+     top: 1em;
+     left: 1em;
+     width: 45%;
+     padding-right: 10px;
+     white-space: nowrap;
+	 text-align:left;
+	 font-family:'Glegoo', serif;	
+}
+     td:nth-of-type(1):before { content: "Basic"; }
+     td:nth-of-type(2):before { content: "Pro"; }
+     td:nth-of-type(3):before { content: "Advanced"; }
+}
+.table1 tr.price td{
+	 text-align: left;
+	 font-family:'Glegoo', serif;	
+	 display:block;
+	 float:left;
+}
+.table1 .dollar{
+	font-family:'Glegoo', serif;
+	vertical-align:baseline;
+	font-size:1.3em;
+	margin-right:0;
+}
+.table1 .digit{
+	font-family:'Glegoo', serif;	
+	font-size:1.4em;	
+}
+.table1 .slash{
+	font-family:'Glegoo', serif;	
+	font-size:0.9em;
+}
+.table1 tr.text p{
+    font-size:0.85em;
+}

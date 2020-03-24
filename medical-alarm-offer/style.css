@@ -1,0 +1,797 @@
+/* meyerweb css reset start */
+/* The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on. */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: top;
+}
+a img, :link img, :visited img {
+border: 0;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: black;
+background: white;
+font-size: 13px;
+text-align:center; /* for ie5.+*/
+}
+body {
+background: #fff url(images/body_bg.jpg) repeat-x 0 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: none;
+}
+/* meyerweb css reset end */
+
+em {font-style: italic;}
+strong {font-weight: bold;}
+h1, h2, h3, h4, h5, h6{font-weight:bold;}
+h1{font-size:197%}/* 26px */
+h2{font-size:182%}/* 24px */
+h3{font-size:167%}/* 22px */
+h4{font-size:152%}/* 20px */
+h5{font-size:136%}/* 18px */
+h6{font-size:122%}/* 16px */
+
+.clearfix:after {
+content: " ";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {display: inline-block;}  /* for IE/Mac */
+
+/* For HTML5 to be rendered correctly in old browsers */
+article,aside,figcaption,figure,footer,header,hgroup,nav,section,time {display: block;}
+
+.before-last {
+    margin-right: 0 !important;
+}
+
+
+.global_container_ {
+	padding: 21.0px 0.0px 0.0px 0.0px;
+	width: 980.0px;
+	min-height: 1500.0px;
+	margin: 0.0px auto 0.0px auto;
+	float: none;
+	height: auto;
+	position: relative;
+}
+.header {
+	float: left;
+	position: relative;
+	width: 923.0px;
+	margin: 0.0px 0.0px 0.0px 47.0px;
+}
+.c_wrapper4 {
+	float: left;
+	position: relative;
+	margin: 8.0px 0.0px 0.0px 0.0px;
+}
+.familycare {
+	float: left;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.fast_medical_alert_respon {
+	float: left;
+	clear: both;
+	margin: 2.0px 0.0px 0.0px 1.0px;
+}
+.c_wrapper5 {
+	float: right;
+	position: relative;
+	width: 246.0px;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.cbbb-badge-horz {
+	height: 33.0px;
+	border: 0.0;
+	float: left;
+	margin: 0.0px 0.0px 11.0px 148.0px;
+	display: block;
+	width: 88.0px;
+}
+.limited_time_offer_call_1 {
+	text-align: right;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 146.15%;
+	line-height: 120.0%;
+	color: #717171;
+	margin: 0.0px 0.0px -8.0px 0.0px;
+	padding: 0.0px 0.0px 0.0px 0.0px;
+	clear: both;
+	min-width: 246.0px;
+}
+.maincontentwrapper {
+	float: left;
+	clear: both;
+	position: relative;
+	width: 980.0px;
+	margin: 26.0px 0.0px 0.0px 0.0px;
+}
+.line {
+	float: left;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.banner {
+	padding: 12.0px 23.0px 25.0px 44.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 913.0px;
+	margin: 1.0px 0.0px 0.0px 0.0px;
+}
+.c_wrapper6 {
+	min-height: 333.0px;
+	float: left;
+	position: relative;
+	width: 612.0px;
+	margin: 13.0px 0.0px 0.0px 0.0px;
+}
+.call_now {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 269.23%;
+	color: #1a56a3;
+	margin: -1.0px 0.0px -6.0px 0.0px;
+	position: absolute;
+	top: 306.0px;
+	left: 4.0px;
+	height: 27.0px;
+	min-width: 438.0px;
+}
+.medical_alarm {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 192.31%;
+	line-height: 120.0%;
+	color: #333333;
+	letter-spacing: -0.08em;
+	margin: -3.0px 0.0px -6.0px 0.0px;
+	position: absolute;
+	top: 0.0;
+	left: 3.0px;
+	height: 66.0px;
+	width: 379.0px;
+}
+.medical_alarm_2 {
+	position: absolute;
+	top: 47.0px;
+	left: 239.0px;
+	height: 274.0px;
+}
+.free_medical_alarm {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 138.46%;
+	color: #1d1d1d;
+	margin: -1.0px 0.0px -3.0px 0.0px;
+	position: absolute;
+	top: 110.0px;
+	left: 24.0px;
+	height: 14.0px;
+	min-width: 165.0px;
+}
+.easy_payment_options {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 138.46%;
+	color: #1d1d1d;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	position: absolute;
+	top: 139.0px;
+	left: 24.0px;
+	height: 18.0px;
+	min-width: 194.0px;
+}
+.free_home_delivery {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 138.46%;
+	color: #1d1d1d;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	position: absolute;
+	top: 166.0px;
+	left: 24.0px;
+	height: 18.0px;
+	min-width: 171.0px;
+}
+.layer30-days_risk_free {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 138.46%;
+	color: #1d1d1d;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	position: absolute;
+	top: 194.0px;
+	left: 24.0px;
+	height: 18.0px;
+	min-width: 159.0px;
+}
+.cancel_anytime {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 138.46%;
+	color: #1d1d1d;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	position: absolute;
+	top: 221.0px;
+	left: 24.0px;
+	height: 18.0px;
+	min-width: 135.0px;
+}
+.arrow1 {
+	position: absolute;
+	top: 109.0px;
+	left: 1.0px;
+	height: 16.0px;
+}
+.arrow2 {
+	position: absolute;
+	top: 137.0px;
+	left: 1.0px;
+	height: 16.0px;
+}
+.arrow3 {
+	position: absolute;
+	top: 165.0px;
+	left: 1.0px;
+	height: 16.0px;
+}
+.arrow4 {
+	position: absolute;
+	top: 192.0px;
+	left: 0.0;
+	height: 16.0px;
+}
+.arrow5 {
+	position: absolute;
+	top: 221.0px;
+	left: 0.0;
+	height: 16.0px;
+}
+.form {
+	padding: 31.0px 19.0px 16.0px 10.0px;
+	float: right;
+	position: relative;
+	width: 269.0px;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.request {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	line-height: 120.0%;
+	color: #ffffff;
+	margin: -3.0px 0.0px -3.0px 18.0px;
+	float: left;
+	width: 211.0px;
+}
+.circles-holder {
+	padding: 29.0px 28.0px 24.0px 19.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 222.0px;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.firstname {
+	height: 26.0px;
+	padding: 0.0px 2.0px 2.0px 20.0px;
+	border: 0.0;
+	background: url(images/firstname.png) no-repeat;
+	float: left;
+	width: 199.0px;
+	margin: 0.0px 0.0px 0.0px 1.0px;
+}
+.lastname {
+	height: 26.0px;
+	padding: 0.0px 2.0px 2.0px 20.0px;
+	border: 0.0;
+	background: url(images/lastname.png) no-repeat;
+	float: left;
+	clear: both;
+	width: 199.0px;
+	margin: 8.0px 0.0px 0.0px 0.0px;
+}
+.email {
+	height: 26.0px;
+	padding: 0.0px 2.0px 2.0px 22.0px;
+	border: 0.0;
+	background: url(images/lastname.png) no-repeat;
+	float: left;
+	clear: both;
+	width: 197.0px;
+	margin: 8.0px 0.0px 0.0px 0.0px;
+}
+.phone {
+	height: 26.0px;
+	padding: 0.0px 2.0px 2.0px 19.0px;
+	border: 0.0;
+	background: url(images/lastname.png) no-repeat;
+	float: left;
+	clear: both;
+	width: 200.0px;
+	margin: 8.0px 0.0px 0.0px 0.0px;
+}
+.submit {
+	height: 29.0px;
+	background: url(images/mergedimage.png) no-repeat;
+	float: right;
+	clear: both;
+	width: 121.0px;
+	margin: 13.0px 3.0px 0.0px 0.0px;
+}
+.circles-holder {
+	background: url(images/circles.png) no-repeat;
+	min-height: 186.0px;
+}
+.form {
+	background: url(images/form_bg.jpg) no-repeat;
+	min-height: 294.0px;
+}
+.banner {
+	background: url(images/banner_bg.png) no-repeat;
+	min-height: 346.0px;
+}
+.wrapper1 {
+	float: left;
+	clear: both;
+	position: relative;
+	width: 916.0px;
+	margin: 15.0px 0.0px 0.0px 33.0px;
+}
+.c_wrapper7 {
+	float: left;
+	position: relative;
+	width: 635.0px;
+	margin: 21.0px 0.0px 0.0px 0.0px;
+}
+.how_it_works {
+	float: left;
+	position: relative;
+	width: 635.0px;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.how_familycare_protects_s {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 215.38%;
+	color: #363636;
+	margin: -1.0px 0.0px 0.0px 19.0px;
+	float: left;
+	min-width: 457.0px;
+}
+.c_wrapper15 {
+	min-height: 78.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 634.0px;
+	margin: 24.0px 0.0px 0.0px 0.0px;
+}
+.shape_3 {
+	position: absolute;
+	top: 0.0;
+	left: 0.0;
+	height: 78.0px;
+}
+.shape_4 {
+	position: absolute;
+	top: 5.0px;
+	left: 42.0px;
+	height: 70.0px;
+}
+.layer1 {
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 369.23%;
+	color: #ffffff;
+	margin: 0.0px 0.0px -9.0px -3.0px;
+	position: absolute;
+	top: 22.0px;
+	left: 39.0px;
+	height: 36.0px;
+	min-width: 30.0px;
+}
+.press_your_help_button_wh {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 123.08%;
+	color: #ff3333;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	position: absolute;
+	top: 14.0px;
+	left: 172.0px;
+	height: 15.0px;
+	min-width: 419.0px;
+}
+.family_care_makes_it_simp {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	line-height: 120.0%;
+	color: #333333;
+	margin: -2.0px 0.0px -1.0px 0.0px;
+	position: absolute;
+	top: 35.0px;
+	left: 174.0px;
+	height: 25.0px;
+	width: 414.0px;
+}
+.c_wrapper14 {
+	min-height: 79.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 634.0px;
+	margin: 12.0px 0.0px 0.0px 0.0px;
+}
+.shape_4_copy-holder {
+	padding: 9.0px 58.0px 14.0px 129.0px;
+	position: absolute;
+	top: 4.0px;
+	left: 42.0px;
+	height: 47.0px;
+	width: 405.0px;
+}
+.a_live_operator_will_atte {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 123.08%;
+	color: #666666;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	float: left;
+	min-width: 359.0px;
+}
+.in_seconds_a_live_operato {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	line-height: 120.0%;
+	color: #333333;
+	margin: 4.0px 0.0px -1.0px 2.0px;
+	float: left;
+	clear: both;
+	width: 403.0px;
+}
+.shape_4_copy-holder {
+	background: url(images/shape_4_copy.png) no-repeat;
+	min-height: 47.0px;
+}
+.shape_3_copy-holder {
+	padding: 21.0px 0.0px 0.0px 36.0px;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 369.23%;
+	color: #ffffff;
+	min-width: 39.0px;
+	position: relative;
+	position: absolute;
+	top: 0.0;
+	left: 0.0;
+	height: 58.0px;
+	width: 65.0px;
+}
+.shape_3_copy-holder {
+	background: url(images/shape_3_copy.jpg) no-repeat;
+	min-height: 58.0px;
+}
+.c_wrapper12 {
+	min-height: 77.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 635.0px;
+	margin: 8.0px 0.0px 0.0px 0.0px;
+}
+.shape_4_copy_2-holder {
+	padding: 9.0px 31.0px 14.0px 129.0px;
+	position: absolute;
+	top: 3.0px;
+	left: 43.0px;
+	height: 47.0px;
+	width: 432.0px;
+}
+.help_will_be_sent_to_your {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 123.08%;
+	color: #6699cc;
+	margin: -1.0px 0.0px 0.0px 1.0px;
+	float: left;
+	min-width: 277.0px;
+}
+.the_operator_will_immedia {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	line-height: 120.0%;
+	color: #333333;
+	margin: 4.0px 0.0px -1.0px 0.0px;
+	float: left;
+	clear: both;
+	width: 432.0px;
+}
+.shape_4_copy_2-holder {
+	background: url(images/shape_4_copy_2.png) no-repeat;
+	min-height: 47.0px;
+}
+.shape_3_copy_2-holder {
+	padding: 20.0px 0.0px 0.0px 36.0px;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 369.23%;
+	color: #ffffff;
+	min-width: 38.0px;
+	position: relative;
+	position: absolute;
+	top: 0.0;
+	left: 0.0;
+	height: 57.0px;
+	width: 65.0px;
+}
+.shape_3_copy_2-holder {
+	background: url(images/shape_3_copy_2.jpg) no-repeat;
+	min-height: 57.0px;
+}
+.c_wrapper10 {
+	min-height: 78.0px;
+	float: left;
+	clear: both;
+	position: relative;
+	width: 635.0px;
+	margin: 10.0px 0.0px 0.0px 0.0px;
+}
+.shape_4_copy_3-holder {
+	padding: 9.0px 22.0px 15.0px 130.0px;
+	position: absolute;
+	top: 3.0px;
+	left: 43.0px;
+	height: 46.0px;
+	width: 440.0px;
+}
+.family_care_will_notify_f {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 123.08%;
+	color: #33cc33;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	float: left;
+	min-width: 370.0px;
+}
+.family_care_takes_the_ext {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	line-height: 120.0%;
+	color: #333333;
+	margin: 3.0px 0.0px -1.0px 0.0px;
+	float: left;
+	clear: both;
+	width: 440.0px;
+}
+.shape_4_copy_3-holder {
+	background: url(images/shape_4_copy_3.png) no-repeat;
+	min-height: 46.0px;
+}
+.shape_3_copy_3-holder {
+	padding: 20.0px 0.0px 0.0px 36.0px;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 369.23%;
+	color: #ffffff;
+	min-width: 40.0px;
+	position: relative;
+	position: absolute;
+	top: 0.0;
+	left: 0.0;
+	height: 58.0px;
+	width: 65.0px;
+}
+.shape_3_copy_3-holder {
+	background: url(images/shape_3_copy_3.jpg) no-repeat;
+	min-height: 58.0px;
+}
+.facts {
+	float: left;
+	clear: both;
+	position: relative;
+	width: 623.0px;
+	margin: 33.0px 0.0px 0.0px 3.0px;
+}
+.important_facts_about_fal {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 215.38%;
+	color: #000000;
+	margin: -1.0px 0.0px 0.0px 1.0px;
+	float: left;
+	min-width: 350.0px;
+}
+.among_older_adults_those_ {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 115.38%;
+	line-height: 120.0%;
+	color: #000000;
+	margin: 22.0px 0.0px -2.0px 0.0px;
+	float: left;
+	clear: both;
+	width: 623.0px;
+}
+.c_wrapper8 {
+	float: right;
+	position: relative;
+	width: 227.0px;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.layer1-877-893-2140 {
+	float: left;
+	margin: 0.0px 0.0px 0.0px 0.0px;
+}
+.fast_response {
+	float: left;
+	clear: both;
+	margin: 9.0px 0.0px 0.0px 1.0px;
+}
+.perfect {
+	float: right;
+	clear: both;
+	position: relative;
+	width: 223.0px;
+	margin: 21.0px 0.0px 0.0px 0.0px;
+}
+.the_perfect_medical_alarm {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130.77%;
+	line-height: 120.0%;
+	color: #333366;
+	margin: -2.0px 0.0px -5.0px 0.0px;
+	float: left;
+	width: 162.0px;
+}
+.millions_of_seniors_and_t {
+	text-align: left;
+	text-indent: 0.0;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	line-height: 130.0%;
+	color: #000000;
+	margin: 12.0px 0.0px -2.0px 1.0px;
+	float: left;
+	clear: both;
+	width: 222.0px;
+}
+.footer {
+	float: left;
+	clear: both;
+	position: relative;
+	width: 980.0px;
+	margin: 91.0px 0.0px 0.0px 0.0px;
+}
+.footer_2 {
+	padding: 24.0px 219.0px 22.0px 249.0px;
+	width: 512.0px;
+	float: left;
+	position: relative;
+}
+.get_familycare {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 223.08%;
+	color: #ffffff;
+	margin: -1.0px 0.0px 0.0px 0.0px;
+	float: left;
+	min-width: 512.0px;
+}
+.copyright {
+	text-align: left;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 92.31%;
+	color: #ffffff;
+	margin: 14.0px 0.0px 0.0px 135.0px;
+	float: left;
+	clear: both;
+	min-width: 277.0px;
+}
+.footer_2 {
+	background: url(images/footer_bg.png) no-repeat;
+	min-height: 53.0px;
+}
+.global_container_ {
+	background: url(images/layer_0.jpg) no-repeat;
+	min-height: 1486.0px;
+}
